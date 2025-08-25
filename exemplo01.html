@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Criando um exemplo de procedimento
+        function exibirMensagem(){
+            alert('Olá mundo');
+        }
+
+        function calcularSubtracao(){
+            let num1 = parseInt(prompt('Digie um numero'));
+            let num2 = parseInt(prompt('Digie um numero'))
+
+            let total = num1 - num2;
+            console.log(`O resultado é: ${total}`)
+        }
+
+        function calcularSoma(valor1, valor2){
+            return valor1 + valor2;
+        }
+
+
+        //chamando a função exibir mensagem
+        exibirMensagem();
+        //Chamar a funcao calcularSubtracao
+        calcularSubtracao();
+        //Chamar a funcao calcularSoma
+        console.log('A SOMA: ' + calcularSoma(7,7));
+    </script>
+    
+</body>
+</html>

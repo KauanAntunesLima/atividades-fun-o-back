@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function calcular(){
+            let v1 = parseInt(document.getElementById('n1').value);
+            let v2 = parseInt(document.getElementById('n2').value);
+
+            let total = v1 + v2;
+            document.getElementById('resultado').innerHTML = total;
+    
+        }
+    </script>
+    <h1>ProjetoSoma</h1>
+    <label>Valor 01:</label>
+    <input type="text" id="n1" value="Kauan">
+
+    <br>
+    <label>Valor 02:</label>
+    <input type="text" id="n2">
+    <br>
+    <button onclick= 'calcular()'>Calcular</button>
+    <br>
+    <h3 id="resultado"></h3>
+</body>
+</html>
